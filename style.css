@@ -1,0 +1,25 @@
+* {
+    font-family: Helvetica, arial, sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+body {
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(30,20,70,1) 0%, rgba(30,20,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+p {
+    font-size: 2em;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: rgba(240,240,240,0.0);
+    border: 12px double rgba(0, 0, 0, 1);
+    border-radius: 50px;
+    font-size: 1em;
+}
