@@ -18,10 +18,9 @@ header{
     box-sizing: border-box;
     display: flex;
     align-items: baseline;
-    justify-content: flex-start;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.35);
-    height: 6vh;
+    height: 110px;
     margin: 0;
     padding: 20px 40px;
     overflow: hidden;
@@ -33,11 +32,12 @@ header{
 
 .content {
     box-sizing: border-box;
-    margin: 10%;
+    margin: 3%;
     padding: 0;
 }
 
 h1 {
+    font-size: 2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgba(150,250,255,1);
 }
@@ -52,7 +52,7 @@ img {
     max-width: 40%;
     border: 1rem rgba(15,100,161,1) solid;
     border-radius: 50%;
-    margin: 5%;
+    margin: 3%;
 }
 
 #message {
@@ -67,7 +67,7 @@ p strong {
     color: rgb(255, 0, 43);
     font-weight: bold;
     font-size: 1.65rem;
-    padding: 5px;
+    padding: 3px;
 }
 
 p em {
