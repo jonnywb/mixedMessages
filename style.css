@@ -4,22 +4,85 @@
     color: white;
 }
 
-body {
-    text-align: center;
+html { 
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(30,20,70,1) 0%, rgba(30,20,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(30,20,70,1) 0%, rgba(15,100,161,1) 50%, rgba(0,200,230,1) 100%);
+  }
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    box-sizing: border-box;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+    height: 6vh;
+    margin: 0;
+    padding: 20px 40px;
+    overflow: hidden;
+}
+
+.container {
+    height: 100%;
+}
+
+.content {
+    box-sizing: border-box;
+    margin: 10%;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(150,250,255,1);
+}
+
+h2 {
+    font-size: 1em;
+    margin: 10px;
+    color: rgba(200,200,205,1);
+}
+
+img {
+    max-width: 40%;
+    border: 1rem rgba(15,100,161,1) solid;
+    border-radius: 50%;
+    margin: 5%;
+}
+
+#message {
+    margin: 0;
 }
 
 p {
-    font-size: 2em;
+    font-size: 1.5rem;
+}
+
+p strong {
+    color: rgb(255, 0, 43);
+    font-weight: bold;
+    font-size: 1.65rem;
+    padding: 5px;
+}
+
+p em {
+    font-size: 2rem;
 }
 
 button {
-    height: 100px;
-    width: 100px;
+    margin: 2%;
+    outline: none;
     color: white;
-    background-color: rgba(240,240,240,0.0);
-    border: 12px double rgba(0, 0, 0, 1);
-    border-radius: 50px;
+    width: 15%;
+    border: none;
+    padding: 2%;
+    background-color:rgba(255, 0, 43, 0.9);
+    border-radius: 6px;
     font-size: 1em;
+    font-weight: bold;
 }

@@ -1,20 +1,47 @@
 //DOM elements to interact with
 const button = document.getElementById('button');
 const message = document.getElementById('message');
+const img = document.getElementById('img');
 
-//Array of random words
-const wordArray1 = ['Hello', 'Hi', 'Yo'];
-const wordArray2 = ['Goodbye', 'Bye', 'Cya'];
+//hide img
+img.style.display = 'none';
+
+//Array of quote objects
+const quotes = [
+    {
+        quote: 'The Best Way To Get Started Is To Quit Talking And Begin Doing.', 
+        author: 'Walt Disney'
+    },
+    {
+        quote: 'The Pessimist Sees Difficulty In Every Opportunity. The Optimist Sees Opportunity In Every Difficulty.',
+        author: 'Winston Churchill'
+    },
+    {
+        quote: 'Don&#39;t Let Yesterday Take Up Too Much Of Today.',
+        author: 'Will Rogers'
+    },
+    {
+        quote: 'You Learn More From Failure Than From Success. Don&#39;t Let It Stop You. Failure Builds Character.',
+        author: 'Unknown'
+    },
+    {
+        quote: 'Never half-ass two things. Whole-ass one thing.',
+        author: 'Ronald Ulysses Swanson',
+        image: './img/ronSwanson.jpg'
+    }
+];
+
+console.log(quotes);
 
 // Will activate on button click
 function displayMessage(){
-    let randomNum1 = Math.floor(Math.random() * wordArray1.length);
-    let randomNum2 = Math.floor(Math.random() * wordArray2.length);
+    let randomNum = Math.floor(Math.random() * quotes.length);
 
-    let word1 = wordArray1[randomNum1];
-    let word2 = wordArray2[randomNum2];
+    let quote = quotes[4];
 
-    message.innerHTML = `${word1} mate, ${word2} mate.`;
+    message.innerHTML = `As <strong>${quote.author}</strong> once said, <br/> <br/> <em>${quote.quote}</em>`;
+    img.src = quotes[4].image;
+    img.style.display = 'inline-block';
 }
 
 //Button Onclick
