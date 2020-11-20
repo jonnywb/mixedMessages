@@ -37,7 +37,7 @@ header{
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 150%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgba(150,250,255,1);
 }
@@ -83,7 +83,7 @@ button {
     border-style: outset;
     background-color:rgba(255, 0, 43, 0.9);
     border-radius: 6px;
-    font-size: 1.5rem;
+    font-size: 75%;
     font-weight: bold;
     transition: box-shadow 150ms ease-out;
 }
