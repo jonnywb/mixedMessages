@@ -21,10 +21,6 @@ const quotes = [
         author: 'Will Rogers'
     },
     {
-        quote: 'You Learn More From Failure Than From Success. Don&#39;t Let It Stop You. Failure Builds Character.',
-        author: 'Unknown'
-    },
-    {
         quote: 'Never half-ass two things. Whole-ass one thing.',
         author: 'Ronald Ulysses Swanson',
         image: './img/ronSwanson.jpg'

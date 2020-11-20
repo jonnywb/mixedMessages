@@ -64,7 +64,7 @@ p {
 }
 
 p strong {
-    color: rgb(255, 0, 43);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 1.65rem;
     padding: 3px;
@@ -79,10 +79,20 @@ button {
     outline: none;
     color: white;
     width: 15%;
-    border: none;
     padding: 2%;
+    border-style: outset;
     background-color:rgba(255, 0, 43, 0.9);
     border-radius: 6px;
-    font-size: 1em;
+    font-size: 1.5rem;
     font-weight: bold;
+    transition: box-shadow 150ms ease-out;
+}
+
+button:hover {
+    -webkit-box-shadow: 0px 0px 50px -23px rgb(255, 255, 255); 
+    box-shadow: 0px 0px 50px -23px rgb(255, 255, 255);
+}
+
+button:active {
+    border-style: inset;
 }
