@@ -1,18 +1,18 @@
-* {
-    font-family: Helvetica, arial, sans-serif;
-    font-weight: 100;
-    color: white;
-}
-
+/***** Global Values *****/
 html { 
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(30,20,70,1) 0%, rgba(15,100,161,1) 50%, rgba(0,200,230,1) 100%);
+    font-family: Helvetica, arial, sans-serif;
+    font-weight: 100;
+    color: white;
   }
 
 body {
     margin: 0;
     text-align: center;
 }
+
+/***** Header *****/
 
 header{
     box-sizing: border-box;
@@ -24,16 +24,6 @@ header{
     margin: 0;
     padding: 20px 40px;
     overflow: hidden;
-}
-
-.container {
-    height: 100%;
-}
-
-.content {
-    box-sizing: border-box;
-    margin: 3%;
-    padding: 0;
 }
 
 h1 {
@@ -48,51 +38,67 @@ h2 {
     color: rgba(200,200,205,1);
 }
 
-img {
-    max-width: 40%;
+/***** Body *****/
+
+.container {
+    height: 100%;
+}
+
+.content {
+    box-sizing: border-box;
+    margin: 3%;
+    padding: 0;
+}
+
+/***** Image *****/
+
+#img {
+    max-width: 50%;
+    max-height: 300px;
     border: 1rem rgba(15,100,161,1) solid;
     border-radius: 50%;
     margin: 3%;
+    transition: background-color 1000ms linear;
 }
+
+/***** Message *****/
 
 #message {
     margin: 0;
-}
-
-p {
     font-size: 1.5rem;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.05);
 }
 
-p strong {
+#message strong {
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 1.65rem;
     padding: 3px;
 }
 
-p em {
-    font-size: 2rem;
+#message em {
+    font-size: 1.8rem;
 }
 
-button {
+/***** Button *****/
+
+#button {
     margin: 2%;
     outline: none;
     color: white;
-    width: 15%;
-    padding: 2%;
+    padding: 30px 100px;
     border-style: outset;
     background-color:rgba(255, 0, 43, 0.9);
     border-radius: 6px;
-    font-size: 75%;
+    font-size: 1rem;
     font-weight: bold;
-    transition: box-shadow 150ms ease-out;
 }
 
-button:hover {
+#button:hover {
     -webkit-box-shadow: 0px 0px 50px -23px rgb(255, 255, 255); 
     box-shadow: 0px 0px 50px -23px rgb(255, 255, 255);
 }
 
-button:active {
+#button:active {
     border-style: inset;
 }
