@@ -6,17 +6,17 @@ const img = document.getElementById('img');
 //Array of quote objects
 const quotes = [
     {
-        quote: 'The Best Way To Get Started Is To Quit Talking And Begin Doing.', 
+        quote: 'The best way to get started is to quit talking and begin doing.', 
         author: 'Walt Disney',
         image: './resources/img/waltDisney.jpg'
     },
     {
-        quote: 'The Pessimist Sees Difficulty In Every Opportunity. The Optimist Sees Opportunity In Every Difficulty.',
+        quote: 'The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty.',
         author: 'Winston Churchill',
         image: './resources/img/winstonChurchill.jpg'
     },
     {
-        quote: 'Don&#39;t Let Yesterday Take Up Too Much Of Today.',
+        quote: "Don't let yesterday take up too much of today.",
         author: 'Will Rogers',
         image: './resources/img/willRogers.jpg'
     },
@@ -26,7 +26,7 @@ const quotes = [
         image: './resources/img/ronSwanson.jpg'
     },
     {
-        quote: 'If You Are Working On Something That You Really Care About, You Don&#39;t Have To Be Pushed. The Vision Pulls You.',
+        quote: "If you are working on something that you really care about, you don't have to be pushed. The vision pulls you.",
         author: 'Steve Jobs',
         image: './resources/img/steveJobs.jpg'
     },
